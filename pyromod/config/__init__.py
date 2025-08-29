@@ -5,8 +5,8 @@ config = SimpleNamespace(
     stopped_handler=None,
     throw_exceptions=True,
     unallowed_click_alert=True,
-    unallowed_click_alert_text=("[pyromod] You're not expected to click this button."),
-    disable_startup_logs=False,
+    unallowed_click_alert_text=("You're not expected to click this button."),
+    disable_startup_logs=True,
 )
 
 __all__ = ["config"]

@@ -80,7 +80,7 @@ class Client(pyrogram.client.Client):
         text: str,
         filters: Optional[Filter] = None,
         listener_type: ListenerTypes = ListenerTypes.MESSAGE,
-        timeout: Optional[int] = None,
+        timeout: Optional[int] = 60,
         unallowed_click_alert: bool = True,
         user_id: Union[Union[int, str], List[Union[int, str]]] = None,
         message_id: Union[int, List[int]] = None,
